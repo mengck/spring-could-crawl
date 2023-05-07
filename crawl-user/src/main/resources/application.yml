@@ -1,0 +1,25 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        group: mengck
+        metadata:
+          env: env1
+          group: mengck
+          region: dev
+          version: 1.0
+          zone: zone1
+        namespace: mengck
+        username: nacos
+        password: nacos
+        register-enabled: true
+        server-addr: 172.28.100.238:8848
+        service: crawl-user
+  config:
+    import: druid_datasource.yml
+  redis:
+    host: 172.28.100.238
+    port: 6379
+server:
+  port: 8083

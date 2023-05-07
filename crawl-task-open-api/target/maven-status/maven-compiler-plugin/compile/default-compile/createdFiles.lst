@@ -1,0 +1,3 @@
+com\mengck\api\task\domain\TaskVO.class
+com\mengck\api\task\resp\ResponseResult.class
+com\mengck\api\task\TaskApiOpenFeignClient.class
